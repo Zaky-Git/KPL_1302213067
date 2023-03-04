@@ -22,13 +22,12 @@ namespace tpmodul3_1302213067
             label1.BackColor = Color.White;
 
             textBox1.TextAlign = HorizontalAlignment.Center;
-            textBox1.Dock = DockStyle.None;
 
 
         }
 
 
-
+ 
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -37,7 +36,7 @@ namespace tpmodul3_1302213067
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            this.AcceptButton = button1;
+            AcceptButton = button1;
 
         }
 
